@@ -1,0 +1,12 @@
+{
+  "name": "teradownloader-site",
+  "version": "1.0.0",
+  "description": "TeraDownloader - Free TeraBox Downloader",
+  "scripts": {
+    "deploy": "wrangler pages deploy public --project-name teradownloader-site",
+    "dev": "wrangler pages dev public"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
